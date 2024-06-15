@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../context/cart.context';
-const API_URL = "http://localhost:5005";
+const API_URL = "https://my-pos-project-bend.adaptable.app";
 
 function ProductDetailsPage() {
 

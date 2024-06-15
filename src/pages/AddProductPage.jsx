@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API_URL = "http://localhost:5005"; // Adjust the URL as needed
+const API_URL = "https://my-pos-project-bend.adaptable.app"; // Adjust the URL as needed
 
 function AddProductPage() {
     const navigate = useNavigate();
